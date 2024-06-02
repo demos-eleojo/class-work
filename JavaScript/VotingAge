@@ -1,0 +1,17 @@
+function checkEligibilityForVote(age) {
+    // Voting age varies by country, let's assume it's 18
+    const votingAge = 18;
+
+    if (age >= votingAge) {
+        return "You are eligible to vote!";
+    } else {
+        return "You are not eligible to vote yet.";
+    }
+}
+
+// Test the function with some examples
+const age1 = 20;
+const age2 = 16;
+
+console.log("Person 1: " + checkEligibilityForVote(age1));
+console.log("Person 2: " + checkEligibilityForVote(age2));

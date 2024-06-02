@@ -1,0 +1,12 @@
+function isLeapYear(year) {
+    // Check if the year is divisible by 4 but not by 100 unless also divisible by 400
+    return (year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0);
+}
+
+// Test the function with some examples
+const yearToTest = 2024;
+if (isLeapYear(yearToTest)) {
+    console.log(yearToTest + " is a leap year.");
+} else {
+    console.log(yearToTest + " is not a leap year.");
+}
