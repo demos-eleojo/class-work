@@ -1,0 +1,24 @@
+if (Average >= 90 && Average <= 100) {
+        letterG ='A';
+    } else if (Average >= 80 && Average < 89) {
+        letterG = 'B';
+
+    } else if (Average >= 70 && Average< 79){
+        letterG = 'C'
+
+    }else if (Average >= 60 && Average < 69){
+        letterG = 'D';
+
+    }else if (Average >= 50 && Average < 59){
+
+        letterG = 'E';
+
+      
+    }elseif (Average >= 1 & Average < 49){
+        
+    }
+        letterG = 'F;
+    
+    }
+    
+        return letterG
